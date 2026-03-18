@@ -1,0 +1,24 @@
+# Backend dependencies for Music Player API
+# Install with: pip install -r requirements.txt
+
+# Web framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# Database
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10       # PostgreSQL driver
+
+# Configuration
+pydantic-settings==2.6.1
+
+# Authentication
+bcrypt==4.2.1
+
+# File handling (included with Python stdlib, listed for clarity)
+# python-multipart is required for FastAPI file uploads
+python-multipart==0.0.12
+
+# Frontend
+streamlit==1.40.2
+requests==2.32.3
